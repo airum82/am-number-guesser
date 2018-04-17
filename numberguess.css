@@ -1,0 +1,136 @@
+h1 {
+
+    background-color: #404041;
+    padding: 10px;
+    text-align: center;
+    color: #ED458B;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.title {
+    color: #E6E7E8;
+    font-weight: 300;
+}
+
+#main {
+   margin: 0 auto;
+   width: 62%;
+   }
+}
+
+.buttons {
+  height: 41px;
+  width: 195px;
+  margin-top: 13px;
+  display: block;
+  color: green;
+  background-color: #929497;
+}
+
+#guess {
+  height: 33px;
+  font-size: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.record {
+  position: absolute;
+  bottom: 40%;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  border: 2px solid green;
+}
+
+#erase {
+  padding-right: 18%;
+  padding-left: 13%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: Open Sans;
+  font-weight: bold 700;
+  background-color: #929497;
+  color: #FFFFFF;
+  border-radius: 18px;
+  width: 45%;
+  margin-left: 5%;
+}
+
+#answer {
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 11%;
+  font-family: Open Sans;
+  font-weight: bold 700;
+  background-color: #929497;
+  color: #FFFFFF;
+  border-radius: 18px;
+  margin: 0 auto;
+  width: 45%;
+  margin-right: 4%;
+}
+
+#options {
+  margin-top: 7%;
+  margin: 4% auto;
+}
+
+#reset {
+  margin-top: 8%;
+  padding: 2% 28% 2% 28%;
+  font-family: Open Sans;
+  font-weight: bold 700;
+  background-color: #929497;
+  color: #FFFFFF;
+  border-radius: 18px;
+  width: 100%;
+}
+
+#numberGuesses {
+  font-size: 35px;
+  text-align: center;
+  width: 100%;
+  margin-top: 7%;
+}
+
+#recentGuess {
+  font-size: 102px;
+  color: #ED458B;
+  margin-top: -2%;
+  margin-bottom: -11%;
+  width: 100%;
+  text-align: center;
+}
+#answer:disabled,
+#reset:disabled,
+#erase:disabled {
+  background-color: #D0D2D3;
+}
+
+.message {
+  font-size: 20px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+#rangeUp {
+  font-size: 35px;
+  color: #ED458B;
+  text-align: center;
+}
+
+#changeRange {
+  background-color: #929497;
+  border-radius: 18px;
+}

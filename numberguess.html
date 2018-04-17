@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Number Guesser</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="numberguess.css">
+  </head>
+  <body>
+    <h1>Number <span class="title">Guesser</span></h1>
+    <form id="main">
+        <input type="text" name="your-guess" placeholder="Type your guess here" id="guess">
+        <div id="options">
+          <button name="submit" class="buttons" id="answer" disabled>Guess</button>
+          <button name="clear" class="buttons" id="erase" disabled>Clear</button>
+        </div>
+        <section aria-live="assertive">
+          <p class="message"></p>
+          <p id="recentGuess"></p>
+          <p id="numberGuesses"></p>
+          <p id="rangeUp"></p>
+        </section>
+        <button name="reset" class="buttons" id="reset" disabled>Reset</button>
+    </form>
+    <footer>
+      Minimum:
+      <input type="text" name="min range" id="min" placeholder="enter minimum number">
+      Maximum:
+      <input type="text" name="max range" id="max" placeholder="enter maximum number">
+      <button name="changeRange" id="changeRange">Change Range</button>
+    </footer>
+    <script src="numberguess.js"></script>
+  </body>
+</html>
